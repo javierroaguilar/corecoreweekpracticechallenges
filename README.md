@@ -39,3 +39,35 @@ Make a program that asks how many sales the seller had, Once the number of sales
 	FinAlgoritmo
 	
  ``` 
+ 
+ ## Challenge 2 - Contador Par o Impar
+ 
+ Request a number from 1 to 50, if the number is not between those values, report the error and request it again until you get a valid number, then it shows on the screen all the numbers from 1 to that number, if the number is even it only shows the even numbers, if it is odd it only shows the odd ones.
+
+ ``` python
+ 
+ 	Algoritmo ContadorImparOPar
+	Imprimir "Ingrese un número entre 1-50"
+	Leer n
+	Si n<1 y n>50
+	Repetir
+		Imprimir "Error! Ingrese un número entre 1-50"
+		Leer n
+	Hasta Que n>0 y n<51 
+	SIno 
+		Si n%2=0 Entonces
+			Para x<-0 Hasta n Hacer
+				Imprimir x
+				x= x+1
+			FinPara
+		sino 
+			Para x<-1 Hasta n Hacer
+				Imprimir x
+				x= x+1
+			FinPara
+		FinSi
+		Finsi
+	Imprimir "Fin de programa"
+	FinAlgoritmo
+
+```
