@@ -96,7 +96,7 @@ Make a program that asks how many sales the seller had, Once the number of sales
 		azar1 = aleatorio(1,6)
 		azar2 = aleatorio(1,6)
 		Si azar1 = azar2 Entonces
-			Imprimir azar1 " " azar2 "Los dados son iguales"
+			Imprimir azar1 " " azar2 " Los dados son iguales"
 		sino 
 			Imprimir azar1 " " azar2
 		FinSi
