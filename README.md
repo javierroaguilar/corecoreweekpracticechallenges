@@ -71,3 +71,35 @@ Make a program that asks how many sales the seller had, Once the number of sales
 	FinAlgoritmo
 
 ```
+
+## Challenge 3 - Imprimir nombre
+
+``` python
+
+	Algoritmo NombreEnMayuscula
+	Imprimir "Ingrese un nombre"
+	Leer nombre
+	Imprimir "Ingrese un apellido"
+	Leer apellido
+	Imprimir Mayusculas(SubCadena(nombre,1,1)) Minusculas(SubCadena(Nombre,2,longitud(nombre))) " " Mayusculas(SubCadena(apellido,1,1)) 				Minusculas(SubCadena(apellido,2,longitud(apellido)))
+	FinAlgoritmo
+``` 
+
+## Challenge 4 - tirar dados
+
+``` python
+
+	Algoritmo Dados
+	Definir azar1 Como Entero
+	Definir azar2 Como Entero
+	Para x=1 hasta 10 Con paso 1 Hacer
+		azar1 = aleatorio(1,6)
+		azar2 = aleatorio(1,6)
+		Si azar1 = azar2 Entonces
+			Imprimir azar1 " " azar2 "Los dados son iguales"
+		sino 
+			Imprimir azar1 " " azar2
+		FinSi
+	FinPara
+	FinAlgoritmo
+``` 
