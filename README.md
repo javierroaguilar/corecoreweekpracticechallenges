@@ -103,3 +103,42 @@ Make a program that asks how many sales the seller had, Once the number of sales
 	FinPara
 	FinAlgoritmo
 ``` 
+
+## Challenge 5 - Numero Mas cercano a cero
+
+``` python
+
+	Algoritmo NumACero
+	Imprimir "Por favor ingrese un numero"
+	Leer x
+	Imprimir "Por favor ingrese un numero"
+	Leer z
+	Imprimir "Por favor ingrese un numero"
+	Leer n
+	Imprimir "Por favor ingrese un numero"
+	Leer p
+	Imprimir "Por favor ingrese un numero"
+	Leer q
+	Si abs(x)<abs(z) y abs(x)< abs(n) y abs(x)<abs(p) y abs(x)<abs(q) entonces 
+		Imprimir trunc(x)
+	sino 
+		si abs(z)<abs(x) y abs(z)< abs(n) y abs(z)<abs(p) y abs(z)<abs(q) entonces 
+			Imprimir trunc(z)
+		sino 
+			si abs(n)<abs(z) y abs(n)< abs(x) y abs(n)<abs(p) y abs(n)<abs(q) entonces 
+				Imprimir trunc(n)
+			sino 
+				si abs(q)<abs(z) y abs(q)< abs(n) y abs(q)<abs(x) y abs(q)<abs(p) entonces 
+					Imprimir trunc(	q)
+				sino 
+					si abs(p)<abs(z) y abs(p)< abs(n) y abs(p)<abs(x) y abs(p)<abs(q) entonces 
+						Imprimir trunc(p)
+				Fin si
+				
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+	FinAlgoritmo
+	
+``` 
