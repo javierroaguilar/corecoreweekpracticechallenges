@@ -142,3 +142,36 @@ Make a program that asks how many sales the seller had, Once the number of sales
 	FinAlgoritmo
 	
 ``` 
+
+Challenge 6 - Toss Coin
+
+``` pyhton
+
+	Algoritmo TossCoin
+	Imprimir "Ingrese el nombre del jugador 1"
+	Leer nombre1
+	Imprimir "Ingrese el número del jugador 1"
+	Leer n1
+	Imprimir "Ingrese el nombre del jugador 2"
+	Leer nombre2
+	Imprimir "Ingrese el número del jugador 2"
+	Leer n2
+	si n1 <= 0 | n2<=0 Entonces
+		si n1<= 0 & n2<=0 Entonces
+			Imprimir "Juego Cancelado"
+		sino 
+			si n1<=0 & n2>0 Entonces
+				Imprimir "Jugador Ganador: ", Mayusculas(nombre2), ", Amount Won: 0"
+			sino 
+				Imprimir "Jugador Ganador: ", Mayusculas(nombre1), ", Amount Won: 0"
+			FinSi
+		FinSi
+	Sino 
+		Si aleatorio(1,2) = 1 entonces 
+			Imprimir "Jugador Ganador: ", Mayusculas(nombre1), ", Amount Won:" n1 
+		sino 
+			Imprimir "Jugador Ganador: ", Mayusculas(nombre2), ", Amount Won:" n2
+		FinSi
+	FinSi
+	FinAlgoritmo
+```
