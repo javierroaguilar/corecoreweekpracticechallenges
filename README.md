@@ -197,3 +197,24 @@ Make a program that asks how many sales the seller had, Once the number of sales
 	Imprimir totalprice(precio) + (totalprice(precio)*(vat/100))
 	Fin Algoritmo 	
 ```
+
+## Challenge 8 - Texto al Revés
+
+``` python
+	Funcion Per <- text(var)
+	para x = 0 hasta (longitud(Var)) con paso 1 Hacer
+		x=x+1
+		si SubCadena(var,x,x) == mayuscula entonces 
+			Imprimir Minusculas(Subcadena(var,x,x))
+		SiNo
+			Imprimir Mayusculas((Subcadena(var,x,x)))
+		FinSi
+		Fin Para
+	FinFuncion
+
+	Algoritmo FunctionBackWards
+	Imprimir "Ingresar texto"
+	leer var
+	Imprimir (Text(var))
+	FinAlgoritmo
+```
