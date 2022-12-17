@@ -145,7 +145,7 @@ Make a program that asks how many sales the seller had, Once the number of sales
 
 ## Challenge 6 - Toss Coin
 
-``` pyhton
+``` python
 
 	Algoritmo TossCoin
 	Imprimir "Ingrese el nombre del jugador 1"
@@ -174,11 +174,12 @@ Make a program that asks how many sales the seller had, Once the number of sales
 		FinSi
 	FinSi
 	FinAlgoritmo
+	
 ```
 
 ## Challenge 7 - Total Price Function
 
-``` pyhton 
+``` python 
 
 	Funcion Total <- totalprice(precio)
 		Si precio >= 3000 Entonces
