@@ -175,3 +175,24 @@ Make a program that asks how many sales the seller had, Once the number of sales
 	FinSi
 	FinAlgoritmo
 ```
+
+## Challenge 7 - Total Price Function
+
+``` pyhton 
+
+	Funcion Total <- totalprice(precio)
+		Si precio >= 3000 Entonces
+			Total = (precio*0.9)
+		sino 
+			total = precio 
+		FinSi
+	FinFuncion
+	
+	Algoritmo TotalPric
+	Imprimir "ingrese el precio del artículo"
+	Leer precio
+	Imprimir "Ingrese el porcentaje del VAT"
+	leer vat
+	Imprimir totalprice(precio) + (totalprice(precio)*(vat/100))
+	Fin Algoritmo 	
+```
