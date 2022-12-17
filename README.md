@@ -143,7 +143,7 @@ Make a program that asks how many sales the seller had, Once the number of sales
 	
 ``` 
 
-Challenge 6 - Toss Coin
+## Challenge 6 - Toss Coin
 
 ``` pyhton
 
