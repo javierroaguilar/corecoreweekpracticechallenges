@@ -201,20 +201,27 @@ Make a program that asks how many sales the seller had, Once the number of sales
 ## Challenge 8 - Texto al Revés
 
 ``` python
-	Funcion Per <- text(var)
-	para x = 0 hasta (longitud(Var)) con paso 1 Hacer
-		x=x+1
-		si SubCadena(var,x,x) == mayuscula entonces 
-			Imprimir Minusculas(Subcadena(var,x,x))
-		SiNo
-			Imprimir Mayusculas((Subcadena(var,x,x)))
+	
+	Funcion text <- pal(t1)
+	Definir p como caracter
+	Dimension p[100];
+	Imprimir "ingrese el texto"
+	leer t1
+	x <- longitud(t1) 
+	Para i=0 hasta x Con paso 1 Hacer 
+		p[i] = SubCadena(t1,i,i)
+	FinPara
+	Para i=x Hasta 0 con paso -1 Hacer
+		Si (p[i] == Mayusculas(p[i])) Entonces 
+			Imprimir minusculas(p[i])
+		sino 
+			Imprimir Mayusculas(p[i])
 		FinSi
-		Fin Para
+		Imprimir Sin Saltar p[i]
+	FinPara
 	FinFuncion
 
-	Algoritmo FunctionBackWards
-	Imprimir "Ingresar texto"
-	leer var
-	Imprimir (Text(var))
+	Algoritmo PalabraAlReves
+	Imprimir Sin Saltar pal(t1)
 	FinAlgoritmo
 ```
